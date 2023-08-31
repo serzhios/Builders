@@ -1,1 +1,50 @@
-<header class="header"></header>
+<header class="header">
+    <!-- <div class="header-fon">
+        <img src="../../img/fon1.png" alt="">
+    </div> -->
+    <nav class="header-nav">
+
+        <section class="menu-up">
+            <a href="#main" class="header__logo">
+                @@include('../bem-blocks/logo/_logo.html')
+            </a>
+            <nav class="nav-up">
+                @@include('../bem-blocks/menu/_menuUp.html')
+            </nav>
+
+            @@include("../bem-blocks/tel/_tel.html")
+        </section>
+        <!-- <hr> -->
+        <div class="line"></div>
+        <section class="menu-down">
+            <nav class="nav-down">
+                @@include("../bem-blocks/menu/_menuDown.html")
+            </nav>
+
+        </section>
+        <div class="line1"></div>
+
+    </nav>
+
+
+    <section class="header-main">
+        <div class="link"></div>
+        <div class="header-comp">
+            <h1>Жилой Комплекс <span>«Яблоновский»</span></h1>
+            <p class="header-title">Краснодар, пгт. Яблоновский ул. Кобцевой</p>
+
+            <p class="header-price">от 63 801 до 65 678 ₽/м²</p>
+            <div class="header__btn">
+                @@include('../bem-blocks/button/_button.html',{
+                "class":{
+                "bem__elem": "btn__btn"
+                },
+                "type": "button",
+                "text" : "Узнать стоимость проекта"
+                })
+
+
+            </div>
+        </div>
+    </section>
+</header>

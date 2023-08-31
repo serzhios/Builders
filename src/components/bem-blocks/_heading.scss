@@ -1,0 +1,39 @@
+h1 {
+    color: var(--color__darkBlue);
+    // font-family: "Raleway";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+}
+h2 {
+    font-size: 2.8125rem;
+}
+h3 {
+    font-size: 1.875rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+}
+h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Gilroy";
+}
+
+a {
+    color: var(--color__darkBlue);
+    // font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

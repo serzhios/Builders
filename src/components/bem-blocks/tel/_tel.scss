@@ -1,0 +1,22 @@
+.header-tel {
+    padding-right: 162px;
+    text-align: center;
+    .tel-title {
+        color: var(--color__darkBlue);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .tel-num {
+        color: var(--color__darkBlue);
+
+        font-family: Gilroy;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

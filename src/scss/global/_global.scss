@@ -44,12 +44,17 @@ html {
 
 html,
 body {
+	width: 1440px;
+
 	min-height: 100%;
 	position: relative;
+	// margin: auto;
+	// padding: auto;
 }
 
 body {
 	font-size: 1rem;
+	font-family: "Gilroy", sans-serif;
 }
 
 ul,

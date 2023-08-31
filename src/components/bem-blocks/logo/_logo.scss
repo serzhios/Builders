@@ -1,0 +1,9 @@
+.logo {
+    padding-left: 145px;
+    &__image {
+        // fill: var(--color__white);
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,17 @@
+<svg width="221" height="132" viewBox="0 0 221 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Subtract" filter="url(#filter0_d_360_168)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25.2617 10.9748C19.7389 10.9748 15.2617 15.4519 15.2617 20.9748V51.027C21.2298 51.6051 25.8717 56.04 25.8717 61.4252C25.8717 66.8105 21.2298 71.2454 15.2617 71.8235V101.876C15.2617 107.399 19.7389 111.876 25.2617 111.876H195.572C201.095 111.876 205.572 107.399 205.572 101.876V20.9748C205.572 15.4519 201.095 10.9748 195.572 10.9748H25.2617Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_360_168" x="0.261719" y="0.974762" width="220.312" height="130.901" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.176471 0 0 0 0 0.333333 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_360_168"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_360_168" result="shape"/>
+</filter>
+</defs>
+</svg>

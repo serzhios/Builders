@@ -1,0 +1,35 @@
+.div {
+    // position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 16.375rem;
+    height: 8.6875rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #f9fcfd;
+    box-shadow: 0px 5px 15px 0px rgba(33, 45, 85, 0.2);
+    .rec {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 4.3125rem;
+        .sub {
+            position: absolute;
+
+            flex-shrink: 0;
+            fill: #fff;
+            filter: drop-shadow(0px 5px 20px rgba(33, 45, 85, 0.2));
+            z-index: 1;
+        }
+        .key {
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+            z-index: 2;
+        }
+    }
+}
